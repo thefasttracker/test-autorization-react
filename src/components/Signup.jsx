@@ -6,7 +6,7 @@ class Signup extends Component {
 	constructor() {
 		super();
 		this.state = {
-			sex: ""
+			sex: "male"
 		};
 	}
 
