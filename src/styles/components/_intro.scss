@@ -1,0 +1,38 @@
+.about-comments {
+	
+}
+
+
+
+.about-comments__delete {
+	cursor: pointer;
+	color: red;
+
+	&:hover {
+		
+		text-transform: uppercase;
+	} 
+}
+
+.intro__background {
+	background: url(/../../../build/ft2-forweb.jpg) no-repeat fixed;
+			    -moz-background-size: 100%; /* Firefox 3.6+ */
+			    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+			    -o-background-size: 100%; /* Opera 9.6+ */
+			    background-size: 100%; 
+	min-height: 100vh;	
+	background-color: #A38367;
+	background-size: cover;
+	// background-position: right top;							
+}
+
+.intro {
+
+	height: 650px;
+}
+
+// @media (max-width: 500px) {
+//         .intro__background {
+//           	height: 180vh;
+//         }
+// }
