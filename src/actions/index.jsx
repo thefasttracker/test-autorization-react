@@ -1,5 +1,3 @@
-import "whatwg-fetch";
-import moment from "moment";
 import axios from "axios";
 import {hashHistory} from 'react-router'
 const API_URL = "http://localhost:3000";

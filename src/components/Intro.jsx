@@ -1,8 +1,5 @@
 import React, { Component, PropTypes } from "react";
 import { connect } from "react-redux";
-import * as actions from "../actions";
-import moment from "moment";
-import { EmailSignUpForm } from "redux-auth/material-ui-theme";
 
 class Intro extends Component {
 	
